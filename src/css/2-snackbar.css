@@ -1,0 +1,132 @@
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.label {
+  margin-bottom: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.fieldset {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+
+  align-items: center;
+}
+
+.fieldset-legend {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+.radio {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.radio-group input[type='radio'] {
+  margin-right: 5px;
+}
+
+.iziToast-custom-success {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  border-bottom: 2px solid #b5ea7c;
+  border-radius: 4px;
+  padding: 20px;
+  width: 383px;
+  height: 64px;
+  background-color: #59a10d;
+}
+
+.iziToast-custom-success .iziToast-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.iziToast-custom-error {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  border-bottom: 2px solid #ea7c7c;
+  border-radius: 4px;
+  padding: 20px;
+  width: 383px;
+  height: 64px;
+  background-color: #a10d0d;
+}
+
+.iziToast-custom-error .iziToast-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
